@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/images/favicon_osho.ico"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <title>Osho Regalos</title>
+</head>
+<body>
+    <header class="container">
+        <nav class="row">
+            <div class="col">
+                <a href="../index.html">INICIO</a>
+            </div>
+            <div class="col">
+                <a href="./productos.html">PRODUCTOS</a>
+            </div>
+            <div class="col">
+                <a href="./como_comprar.html">COMO COMPRAR</a>
+            </div>
+            <div class="col">
+                <a href="./quienes_somos.html">QUIENES SOMOS</a>
+            </div>
+            <div class="col">
+                <a href="./contacto.html">CONTACTO</a>
+            </div>
+        </nav>
+
+        <div class="container-boton">
+            <a href="https://wa.me/c/5492234476035">
+                <img class="boton" src="../assets/images/whatsapp-logo-11.png" alt="boton wsp">
+            </a>
+        </div>
+    </header>
+    
+
+    <main>
+        <h1>CONTACTATE CON NOSOTROS!</h1>
+        <form action="" method="post">
+
+            <fieldset>
+                <legend>COMPLETE EL FORMULARIO</legend>
+                <br>
+                <div>
+                    <label for="Nombre">NOMBRE COMPLETO: </label>
+                    <input type="text" id="Nombre" placeholder="Ingrese su nombre aqui..." required>
+                </div>
+                <br>
+                <div>
+                    <label for="Email">EMAIL: </label>
+                    <input type="email" id="Email" placeholder="Ingrese su email aqui..." required>
+                </div>
+                <br>
+                <div>
+                    <label for="Telefono">TELEFONO (opcional): </label>
+                    <input type="number" id="Telefono">
+                </div>
+                <br>
+                <div>
+                    <label for="Sexo">SEXO: </label>
+                    <input type="radio" name="sexo_a_seleccionar" value="masculino">MASCULINO
+                    <input type="radio" name="sexo_a_seleccionar" value="femenino">FEMENINO
+                </div>
+                <br>
+                <div>
+                    <p>DEJANOS TU MENSAJE: </p>
+                    <textarea name="" id="Mensaje" cols="30" rows="10"></textarea>
+                </div>
+                <input type="submit" id="Enviar" value="Enviar">
+                <input type="reset" id="Limpiar" value="Borrar todo">
+
+            </fieldset>
+
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-columna">
+                    <h3>Suscribete</h3>
+                    <input type="email" placeholder="Escriba su Correo">
+                    <input type="submit" value="Suscribirse">
+                </div>
+                <div class="footer-columna">
+                    <h3>Direccion</h3>
+                    <div class="fa fa-map-marker"> <p>Mar del Plata, Argentina</p></div>
+                    <br>
+                    <div class="fa fa-phone"><p>2234474344</p></div>
+                    <br>
+                    <div class="fa fa-envelope"><p>oshoregalos@gmail.com</p></div>
+                </div>
+                <div class="footer-columna">
+                    <h3>Sobre Nosotros</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod repellendus enim minima esse consequatur. Similique facere commodi suscipit dolorum cupiditate. Maxime inventore illum molestias ad.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copy-redes">
+            <div class="main-copy-redes">
+                <div class="footer-copy">
+                    &copy; 2020, Todos los derechos reservados - | OshoRegalos | -
+                </div>
+                <div class="footer-redes">
+                    <a href="https://www.facebook.com/osho.regalos" class="fa fa-facebook" target="_blank"></a>
+                    <a href="https://www.instagram.com/osho.regalos/" class="fa fa-instagram" target="_blank"></a>
+                    <a href="https://wa.me/c/5492234476035" class="fa fa-whatsapp" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
