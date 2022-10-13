@@ -1,0 +1,23 @@
+/*anidamiento*/ 
+header{
+    background-color: $color-osho;
+    color: white;
+    text-align: center;
+    nav{
+        div{
+            a{
+                list-style-type: none;
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                &:hover{
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.navbar-brand:hover{ /*NO ENTENDI COMO METERLO EN EL ANIDAMIENTO*/
+    transform:rotate(360deg);
+    transition: 1s transform linear;
+}

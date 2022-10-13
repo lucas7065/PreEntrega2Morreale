@@ -1,0 +1,35 @@
+main{
+    text-align: center;
+    h1{
+        background-color: #f8ddec;
+        width: 100%;
+    }
+}
+
+.imagenes-x{
+    height: 175px;
+    width: 175px;
+}
+
+.container-boton{
+    background-color: #2E6329;
+    border: 1px solid white;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 25px;
+    right: 20px;
+    padding: 20px;
+    }
+    
+.boton{
+    width: 40px;
+}
+
+
+.imagenes-inicio{
+    height: 300px;
+    width: 300px;
+    padding-top: 5px;
+    
+}
