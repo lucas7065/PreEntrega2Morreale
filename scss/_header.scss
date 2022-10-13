@@ -17,6 +17,18 @@ header{
     }
 }
 
+
+.header__banner{
+    height: 560px;
+    background-image: url(https://d22fxaf9t8d39k.cloudfront.net/5e39ce668bf5c353defd70c9d2feda5bf2d17df3b2b381a02fdc46ca0888464b69805.png);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+
 .navbar-brand:hover{ /*NO ENTENDI COMO METERLO EN EL ANIDAMIENTO*/
     transform:rotate(360deg);
     transition: 1s transform linear;

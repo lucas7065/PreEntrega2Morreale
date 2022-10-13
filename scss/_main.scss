@@ -1,14 +1,25 @@
 main{
     text-align: center;
-    h1{
-        background-color: #f8ddec;
-        width: 100%;
+}
+
+h1,h2{
+    background-color: #f8ddec;
+    color: black;
+    width: 100%;
+}
+
+
+div{
+    section{
+        h6{
+            padding-top: 5px;
+            font-family: 'Alkalami', serif;
+        }
     }
 }
 
 .imagenes-x{
-    height: 175px;
-    width: 175px;
+    height: 200px;
 }
 
 .container-boton{
